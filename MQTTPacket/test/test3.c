@@ -49,7 +49,7 @@ struct Options
 	int test_no;
 } options =
 {
-	"localhost",
+	"broker.emqx.io", //broker.emqx.io localhost
 	1883,
 	0,
 	0,

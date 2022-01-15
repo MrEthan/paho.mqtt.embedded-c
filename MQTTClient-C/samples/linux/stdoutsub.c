@@ -222,7 +222,7 @@ int main(int argc, char** argv)
  
 	MQTTPacket_connectData data = MQTTPacket_connectData_initializer;       
 	data.willFlag = 0;
-	data.MQTTVersion = 3;
+	data.MQTTVersion = 5; // 5
 	data.clientID.cstring = opts.clientid;
 	data.username.cstring = opts.username;
 	data.password.cstring = opts.password;
